@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+li {
+    list-style:none;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+button {
+    background-color: rgb(127, 255, 212);
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    width: fit-content
+}
+button:hover{
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid black;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+nav.logo {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+
+}
+
+nav ul li :hover {
+    text-decoration: underline;
+    font-weight: 900;
+}
+.Search-field {
+    display: flex;
+    gap: 35px;
+}
+
+input{
+    padding: 4px 10px;
+}
+.Hero-section {
+    display: flex;
+    align-items: center;
+}
+
+.Hero-section-left h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.Hero-section-left h1 span {
+    color: rgb(18, 155, 155);
+    font-weight: 900;
+    font-size: 2.5 rem;
+}
+.Hero-section-left p {
+    font-weight: 500;
+}
+
+.Hero-section-left p span {
+    font-weight: 500;
+    font-size:25px ;
+    color: rgb(18, 155, 155) ;
+}
+
+.Hero-section-right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Hero-section-right-btns {
+    display: flexa;
+    align-items: center;
+    gap: 30px;
+}
+.Hero-section-right img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-around;
+
+}
+
+footer p {
+    font-weight: 600;
+}
+
+footer ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+/* footer ul li a i:hover {
+    display: flex;
+    gap: 30px; */
+
+   footer ul li :hover {
+        text-decoration: underline;
+        font-weight: 900;
+    }
